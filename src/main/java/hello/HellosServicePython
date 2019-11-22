@@ -1,0 +1,8 @@
+from hello import HelloService
+
+class HelloServicePython(Helloservice):
+    def __init__(Self):
+        self.value = "Python says Hello"
+
+    def getHello(self):
+        return self.value
